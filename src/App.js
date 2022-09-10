@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { Barchar } from './components/Barchar';
+import { CardFooter} from './components/CardFooter'
+import { CardTop} from './components/Cardtop'
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="card-chart-container" >
+        <div className="card-chart-container2">
+          <CardTop/>
+          <Barchar/>
+          <CardFooter/>
+        </div>
+        
+     </div>
     </div>
   );
 }
