@@ -2,11 +2,11 @@
 To run project excecute `npm install` and then `npm start`
 
 ## Project composition
-The project is built with 3 main elements CardTop, CardFooter, Barchart.
+The project is built with 3 main components CardTop, CardFooter, Barchart.
 
 In this last element is the logic of the application.
 
-The application is built with Bootstrap 5 and css.
+The application is built with Bootstrap 5, css and React.
 
 ## Available Scripts
 
