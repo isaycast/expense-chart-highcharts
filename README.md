@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+## Run project 
+To run project excecute `npm install` and then `npm start`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project composition
+The project is built with 3 main components CardTop, CardFooter, Barchart.
+
+In this last element is the logic of the application.
+
+The application is built with Bootstrap 5, css and React.
 
 ## Available Scripts
 
