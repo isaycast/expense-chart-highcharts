@@ -13,7 +13,7 @@ function Barchar() {
   useEffect(() => {
     // Getting current day to update parameter
     const d = new Date();
-    let day = d.getDay() - 1;
+    let day = d.getDay() - 1 < 0 ? 6 : d.getDay() - 1;
     barConfig.series[0].data[day].color = cyan;
   }, []);
 
